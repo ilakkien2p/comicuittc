@@ -1,0 +1,41 @@
+<html>
+    <head> 
+    
+    <title>ttc</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="page-controls.js"></script>
+
+    </head>
+
+    <body>
+
+     <a-scene background="color:red;">   
+
+        <a-camera wasd-controls-enabled="false"></a-camera>
+
+
+        <a-assets>
+            <img id="1" src="comic/assets/page1.jpg" ></img>
+            <img id="2" src="comic/assets/page2.jpg" ></img>
+            <img id="3" src="comic/assets/page3.jpg" ></img>
+            <img id="4" src="comic/assets/page4.jpg" ></img>
+            <img id="5" src="comic/assets/page5.jpg" ></img>
+
+            <a-entity layer="src:#1; height:3; width:2;" page-controls></a-entity>
+
+        </a-assets>
+
+
+
+            <a-sky> 
+            </a-sky>            
+
+
+           
+
+
+
+     </a-scene>
+    </body>
+<footer></footer>
+</html> 
